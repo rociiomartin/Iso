@@ -13,6 +13,7 @@ do
 case $variable in
   "Listar")
     ls -l
+    #echo $(ls-l) es lo mismo
   break
   ;;
   "DondeEstoy")
