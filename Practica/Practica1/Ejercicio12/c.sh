@@ -7,10 +7,10 @@ Enunciado
 
 if [ $# -eq 3 ]; then
   variable=$1
-  select variable in Multipliacion Suma Resta Mayor Exit
+  select variable in Multi Suma Resta Mayor Exit
   do
   case $variable in
-    "Multipliacion")
+    "Multi")
        echo "$(($2*$3))"
     ;;
     "Suma")
